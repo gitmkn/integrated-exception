@@ -8,7 +8,9 @@ import java.io.Serializable;
  * @Date: 2020/8/16 23:24
  */
 public class BaseException extends RuntimeException implements Serializable {
+
     public BaseException() {
+        super();
     }
 
     public BaseException(String message) {
