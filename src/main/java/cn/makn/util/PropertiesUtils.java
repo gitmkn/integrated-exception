@@ -28,7 +28,7 @@ public class PropertiesUtils {
      * @author makn
      * @date 2020/12/10 11:21
      */
-    public static String getXmlPath(String path, String key) {
+    public static String getProperValue(String path, String key) {
         if(path == null || path == ""){
             path = PATH_DEFAULT;
         }
